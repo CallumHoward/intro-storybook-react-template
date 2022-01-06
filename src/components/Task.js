@@ -18,7 +18,7 @@ export default function Task({ task: { id, title, state }, onArchiveTask, onPinT
           aria-label={`archiveTask-${id}`}
         />
       </label>
-      <div className="title">
+      <div className="titl">
         <input type="text" value={title} readOnly={true} placeholder="Input title" />
       </div>
 
